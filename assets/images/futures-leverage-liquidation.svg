@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="futGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#450a0a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="400" rx="14" fill="url(#futGrad)"/>
+  <rect x="40" y="30" width="640" height="340" rx="12" fill="#0f172a" stroke="#991b1b" stroke-width="1.2"/>
+  <rect x="40" y="30" width="640" height="40" rx="12" fill="#7f1d1d"/>
+  <text x="60" y="55" fill="#fef2f2" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">FUTURES LEVERAGE &amp; LIQUIDATION RISK DYNAMICS</text>
+  <!-- Scale of Leverage vs Distance to Liquidation -->
+  <g transform="translate(60, 95)">
+    <!-- 2x -->
+    <rect width="180" height="70" rx="6" fill="#1e293b" stroke="#22c55e" stroke-width="1"/>
+    <text x="14" y="24" fill="#86efac" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">2x CONSERVATIVE LEVERAGE</text>
+    <text x="14" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13">Liquidation: -50.0% Move</text>
+    <text x="14" y="60" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="10">High survival corridor</text>
+
+    <!-- 5x -->
+    <rect x="200" width="180" height="70" rx="6" fill="#1e293b" stroke="#eab308" stroke-width="1"/>
+    <text x="214" y="24" fill="#fde047" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">5x MODERATE LEVERAGE</text>
+    <text x="214" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13">Liquidation: -20.0% Move</text>
+    <text x="214" y="60" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="10">Requires strict stop-loss</text>
+
+    <!-- 20x -->
+    <rect x="400" width="190" height="70" rx="6" fill="#450a0a" stroke="#ef4444" stroke-width="1.5"/>
+    <text x="414" y="24" fill="#fca5a5" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">20x EXTREME SPECULATION</text>
+    <text x="414" y="44" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="13">Liquidation: -5.0% Move</text>
+    <text x="414" y="60" fill="#f87171" font-family="-apple-system, sans-serif" font-size="10">Instant ruin on standard wick</text>
+  </g>
+  <!-- Liquidation Price Formula Box -->
+  <g transform="translate(60, 190)">
+    <rect width="590" height="150" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="28" fill="#f87171" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">THE MATHEMATICAL REALITY OF LEVERAGED LIQUIDATION</text>
+    <text x="20" y="52" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Long Liquidation Price ≈ Entry Price × [1 - (1 ÷ Leverage) + Maintenance Margin Rate]</text>
+    <text x="20" y="74" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Higher leverage does not increase your edge; it exponentially contracts your margin for normal market noise.</text>
+    <!-- Warning banner -->
+    <rect x="20" y="90" width="550" height="42" rx="6" fill="#7f1d1d"/>
+    <text x="35" y="115" fill="#fef2f2" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">CRITICAL RULE: Always compute maintenance margin and place stop orders before entering leveraged contracts.</text>
+  </g>
+</svg>

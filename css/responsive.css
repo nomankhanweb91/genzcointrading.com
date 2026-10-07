@@ -1,0 +1,139 @@
+/* ==========================================================================
+   GENZCOINTRADING.COM — RESPONSIVE STYLESHEET
+   Mobile First, Tablet, Desktop Breakpoints
+   ========================================================================== */
+
+/* Tablet & Smaller Desktop (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .hero-grid,
+  .page-hero-grid,
+  .tool-layout {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .trust-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .site-nav {
+    display: none;
+    position: fixed;
+    top: 4.25rem;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid var(--border-light);
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+    box-shadow: var(--shadow-lg);
+    z-index: 45;
+  }
+
+  .site-nav.open {
+    display: flex;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .section-title {
+    font-size: 1.625rem;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .trust-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-actions {
+    grid-template-columns: 1fr;
+  }
+
+  .calc-card,
+  .calc-result-panel {
+    padding: 1.25rem;
+  }
+
+  .result-primary-val {
+    font-size: 1.875rem;
+  }
+}
+
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .hero-title {
+    font-size: 1.625rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .btn-search kbd {
+    display: none;
+  }
+
+  .result-actions {
+    flex-direction: column;
+  }
+}
+
+/* Print Optimization */
+@media print {
+  .site-header,
+  .site-footer,
+  .hero-cta-group,
+  .form-actions,
+  .btn-search,
+  .btn-back-to-top,
+  .ad-banner-slot {
+    display: none !important;
+  }
+
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .calc-card,
+  .calc-result-panel {
+    box-shadow: none !important;
+    border: 1px solid #cccccc !important;
+  }
+}

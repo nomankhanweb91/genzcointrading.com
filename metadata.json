@@ -1,0 +1,6 @@
+{
+  "name": "GenzCoinTrading.com",
+  "description": "Educational cryptocurrency calculators, risk-management tools, and comprehensive trading guides with 100% client-side computation and no live market data dependencies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

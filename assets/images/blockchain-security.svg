@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="secGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="400" rx="14" fill="url(#secGrad)"/>
+  <rect x="40" y="30" width="640" height="340" rx="12" fill="#0f172a" stroke="#312e81" stroke-width="1.2"/>
+  <rect x="40" y="30" width="640" height="40" rx="12" fill="#312e81"/>
+  <circle cx="65" cy="50" r="5" fill="#a855f7"/>
+  <text x="85" y="55" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">CRYPTOGRAPHIC SECURITY &amp; CUSTODY HYGIENE</text>
+  <!-- Vault / Hardware Key diagram -->
+  <g transform="translate(80, 110)">
+    <rect width="180" height="200" rx="12" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+    <circle cx="90" cy="80" r="36" fill="#312e81" stroke="#a855f7" stroke-width="3"/>
+    <rect x="85" y="72" width="10" height="24" rx="3" fill="#ffffff"/>
+    <circle cx="90" cy="74" r="5" fill="#ffffff"/>
+    <text x="90" y="145" text-anchor="middle" fill="#c7d2fe" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">COLD STORAGE</text>
+    <text x="90" y="165" text-anchor="middle" fill="#818cf8" font-family="-apple-system, sans-serif" font-size="10">Air-Gapped Keys</text>
+  </g>
+  <!-- Checklist on right -->
+  <g transform="translate(300, 100)">
+    <rect width="340" height="64" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+    <circle cx="30" cy="32" r="12" fill="#10b981"/>
+    <text x="30" y="36" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">✓</text>
+    <text x="55" y="27" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">24-Word Recovery Mnemonic</text>
+    <text x="55" y="45" fill="#a5b4fc" font-family="-apple-system, sans-serif" font-size="11">Engraved in stainless steel, never stored digitally</text>
+
+    <rect y="74" width="340" height="64" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+    <circle cx="30" cy="32" r="12" fill="#10b981"/>
+    <text x="30" y="36" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">✓</text>
+    <text x="55" y="27" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Hardware 2FA (FIDO2 / U2F)</text>
+    <text x="55" y="45" fill="#a5b4fc" font-family="-apple-system, sans-serif" font-size="11">Eliminates SMS-swap vulnerabilities entirely</text>
+
+    <rect y="148" width="340" height="64" rx="8" fill="#1e1b4b" stroke="#4338ca" stroke-width="1"/>
+    <circle cx="30" cy="32" r="12" fill="#10b981"/>
+    <text x="30" y="36" text-anchor="middle" fill="#ffffff" font-size="12" font-weight="bold">✓</text>
+    <text x="55" y="27" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">Independent Node Verification</text>
+    <text x="55" y="45" fill="#a5b4fc" font-family="-apple-system, sans-serif" font-size="11">Cryptographic proof without third-party RPC trust</text>
+  </g>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="emeraldBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="400" rx="14" fill="url(#pGrad)"/>
+  <!-- Title bar -->
+  <rect x="40" y="30" width="640" height="44" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <circle cx="65" cy="52" r="5" fill="#10b981"/>
+  <text x="85" y="57" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="13" font-weight="700">CRYPTO PROFIT &amp; RETURN ON INVESTMENT (ROI) MODEL</text>
+  <!-- Main Trade Flow Card -->
+  <rect x="40" y="90" width="380" height="270" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+  <text x="60" y="125" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">TRADE EXECUTION LEDGER</text>
+  <!-- Table Mock -->
+  <g transform="translate(60, 140)">
+    <rect width="340" height="32" rx="4" fill="#1e293b"/>
+    <text x="14" y="21" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Initial Capital Invested</text>
+    <text x="326" y="21" text-anchor="end" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">$2,500.00</text>
+    
+    <rect y="40" width="340" height="32" rx="4" fill="#1e293b"/>
+    <text x="14" y="61" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Entry Price per Unit</text>
+    <text x="326" y="61" text-anchor="end" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">$50,000.00</text>
+
+    <rect y="80" width="340" height="32" rx="4" fill="#1e293b"/>
+    <text x="14" y="101" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Exit Price per Unit</text>
+    <text x="326" y="101" text-anchor="end" fill="#38bdf8" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">$67,500.00</text>
+
+    <rect y="120" width="340" height="32" rx="4" fill="#1e293b"/>
+    <text x="14" y="141" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Deducted Trading Fees (0.1%)</text>
+    <text x="326" y="141" text-anchor="end" fill="#f43f5e" font-family="-apple-system, sans-serif" font-size="12" font-weight="600">-$5.88</text>
+
+    <rect y="160" width="340" height="38" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+    <text x="14" y="184" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">Net Realized Profit</text>
+    <text x="326" y="184" text-anchor="end" fill="#34d399" font-family="-apple-system, sans-serif" font-size="15" font-weight="700">+$869.12 (+34.76%)</text>
+  </g>
+  <!-- Chart Card -->
+  <rect x="440" y="90" width="240" height="270" rx="10" fill="#0f172a" stroke="#334155" stroke-width="1.2"/>
+  <text x="460" y="125" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11" font-weight="600">CAPITAL APPRECIATION</text>
+  <!-- Bar chart -->
+  <rect x="475" y="240" width="45" height="80" rx="4" fill="#475569"/>
+  <text x="497" y="338" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="10">ENTRY</text>
+  <text x="497" y="232" text-anchor="middle" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="10">$2.5k</text>
+
+  <rect x="545" y="152" width="45" height="168" rx="4" fill="url(#emeraldBar)"/>
+  <text x="567" y="338" text-anchor="middle" fill="#10b981" font-family="-apple-system, sans-serif" font-size="10" font-weight="700">EXIT</text>
+  <text x="567" y="142" text-anchor="middle" fill="#34d399" font-family="-apple-system, sans-serif" font-size="11" font-weight="700">$3.37k</text>
+
+  <!-- ROI Circle -->
+  <circle cx="630" cy="190" r="32" fill="#1e293b" stroke="#10b981" stroke-width="3"/>
+  <text x="630" y="188" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="9">ROI</text>
+  <text x="630" y="202" text-anchor="middle" fill="#34d399" font-family="-apple-system, sans-serif" font-size="12" font-weight="700">+34.8%</text>
+</svg>
